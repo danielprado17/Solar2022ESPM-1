@@ -228,6 +228,7 @@ GameObject:
   - component: {fileID: 436960224}
   - component: {fileID: 436960223}
   - component: {fileID: 436960222}
+  - component: {fileID: 436960226}
   m_Layer: 0
   m_Name: Lua
   m_TagString: Untagged
@@ -311,6 +312,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &436960226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436960221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d5a0b32270325540bb7414476da1374, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rot: 0.03650106
 --- !u!1001 &852610760
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -405,6 +419,7 @@ GameObject:
   - component: {fileID: 872874862}
   - component: {fileID: 872874861}
   - component: {fileID: 872874860}
+  - component: {fileID: 872874864}
   m_Layer: 0
   m_Name: Terra
   m_TagString: Untagged
@@ -489,6 +504,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: -286.004, z: 0}
+--- !u!114 &872874864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872874859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d5a0b32270325540bb7414476da1374, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rot: 0.997
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -645,6 +673,7 @@ GameObject:
   - component: {fileID: 1055166528}
   - component: {fileID: 1055166527}
   - component: {fileID: 1055166526}
+  - component: {fileID: 1055166530}
   m_Layer: 0
   m_Name: Mercurio
   m_TagString: Untagged
@@ -728,6 +757,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1055166530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1055166525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d5a0b32270325540bb7414476da1374, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rot: 0.0170048
 --- !u!1 &1228761409
 GameObject:
   m_ObjectHideFlags: 0
@@ -740,6 +782,7 @@ GameObject:
   - component: {fileID: 1228761412}
   - component: {fileID: 1228761411}
   - component: {fileID: 1228761410}
+  - component: {fileID: 1228761414}
   m_Layer: 0
   m_Name: Marte
   m_TagString: Untagged
@@ -823,6 +866,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1228761414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1228761409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d5a0b32270325540bb7414476da1374, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rot: 0.9720387
 --- !u!1 &1506030919
 GameObject:
   m_ObjectHideFlags: 0
@@ -1026,6 +1082,7 @@ GameObject:
   - component: {fileID: 1646232993}
   - component: {fileID: 1646232992}
   - component: {fileID: 1646232991}
+  - component: {fileID: 1646232995}
   m_Layer: 0
   m_Name: Venus
   m_TagString: Untagged
@@ -1109,6 +1166,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1646232995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646232990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d5a0b32270325540bb7414476da1374, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rot: 0.00410369
 --- !u!1 &1724449561
 GameObject:
   m_ObjectHideFlags: 0
@@ -1121,6 +1191,7 @@ GameObject:
   - component: {fileID: 1724449564}
   - component: {fileID: 1724449563}
   - component: {fileID: 1724449562}
+  - component: {fileID: 1724449566}
   m_Layer: 0
   m_Name: Saturno
   m_TagString: Untagged
@@ -1206,6 +1277,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1724449566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1724449561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d5a0b32270325540bb7414476da1374, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rot: 2.2664
 --- !u!1 &1775454543
 GameObject:
   m_ObjectHideFlags: 0
@@ -1218,6 +1302,7 @@ GameObject:
   - component: {fileID: 1775454546}
   - component: {fileID: 1775454545}
   - component: {fileID: 1775454544}
+  - component: {fileID: 1775454548}
   m_Layer: 0
   m_Name: Sol
   m_TagString: Untagged
@@ -1301,6 +1386,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1775454548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1775454543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d5a0b32270325540bb7414476da1374, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rot: 0.03982
 --- !u!1 &1920284845
 GameObject:
   m_ObjectHideFlags: 0
@@ -1361,6 +1459,7 @@ GameObject:
   - component: {fileID: 2028269772}
   - component: {fileID: 2028269771}
   - component: {fileID: 2028269770}
+  - component: {fileID: 2028269774}
   m_Layer: 0
   m_Name: Jupter
   m_TagString: Untagged
@@ -1444,3 +1543,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2028269774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2028269769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d5a0b32270325540bb7414476da1374, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rot: 2.4115
